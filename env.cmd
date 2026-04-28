@@ -1,6 +1,0 @@
-set "CHINOOK DB PROTO=jdbc:mysql"
-set "CHINOOK DB HOST=localhost"
-set "CHINOOK DB PORT=3306"
-set "CHINOOK DB NAME=Chinook"
-set "CHINOOK DB USERNAME=root"
-set "CHINOOK DB PASSWORD=yourpassword"
