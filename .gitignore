@@ -1,0 +1,37 @@
+# Create .gitignore file
+cat > .gitignore << 'EOF'
+# Database credentials (CRITICAL!)
+*.properties
+!example.config.properties
+config.properties
+~/.chinook/
+
+# Compiled files
+*.class
+/bin/
+/build/
+/target/
+/dist/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+.DS_Store
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+EOF
