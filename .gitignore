@@ -12,7 +12,7 @@ config.properties
 /build/
 /target/
 /dist/
-
+COS221_Practical_4_2026.pdf
 # IDE files
 .idea/
 *.iml
